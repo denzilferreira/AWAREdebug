@@ -1,0 +1,7 @@
+[submodule "android-core"]
+	path = android-core
+	url = git@github.com:awareframework/com.aware.android.core.git
+
+[submodule "android-device"]
+    path = android-device
+    url = git@github.com:awareframework/com.aware.android.sensor.device.git

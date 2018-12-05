@@ -1,0 +1,7 @@
+include ':app'
+
+include 'core'
+project(':core').projectDir = new File('./android-core/library')
+
+include 'android-device'
+project(':android-device').projectDir = new File('./android-device/library')
